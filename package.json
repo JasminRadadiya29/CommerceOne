@@ -58,7 +58,8 @@
   "scripts": {
     "start": "vite",
     "build": "vite build --sourcemap",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy:test": "npm run build && npm run serve"
   },
   "eslintConfig": {
     "extends": [
